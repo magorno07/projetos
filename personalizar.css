@@ -1,0 +1,24 @@
+div{
+    border-radius: 1px;
+}
+
+header{
+    border-radius: 10px;
+
+}
+
+title{
+    background-color:dodgerblue;
+}
+
+header{
+    background-image: url(img/18qzLjgVBL._AC_UF894,1000_QL80_.jpgjpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:top; 
+          
+}
+
+body{
+    background-image: url();
+}

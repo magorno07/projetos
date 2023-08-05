@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agência de Viagens</title>
+  <!-- Inclua o Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <!-- Inclua seu arquivo de CSS personalizado -->
+  <link href="personalizar.css" rel="stylesheet">
+</head>
+<style>
+    body{
+      background-image: url(fundo.jpg);
+      background-repeat: no-repeat;
+      background-position: center 0;
+      background-size: contain;
+    }
+  
+  </style>
+<body>
+    
+  <!-- Barra de navegação -->
+  
+  <nav class="navbar navbar-expand-md navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="home.html">Agência de Viagens</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href=destinos.html>Destinos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contato">Contato</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+ 
+  
+  <header class="jumbotron jumbotron-fluid text-center">
+    <div class="container">
+      <h1>Bem-vindo à Agência de Viagens</h1>
+      <p>Descubra os melhores destinos com as melhores ofertas!</p>
+      <a href="destinos.html" class="btn btn-primary btn-lg">Veja nossos Destinos</a>
+    </div>
+  </header>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+  <!-- Seção de Contato -->
+  <section id="contato" class="bg-light py-5">
+    <div class="container">
+      <h2 class="text-center mb-5">Entre em Contato</h2>
+      <form>
+        <div class="form-group">
+          <label for="nome">Nome</label>
+          <input type="text" class="form-control" id="nome" required>
+        </div>
+        <div class="form-group">
+          <label for="email">E-mail</label>
+          <input type="email" class="form-control" id="email" required>
+        </div>
+        <div class="form-group">
+          <label for="mensagem">Mensagem</label>
+          <textarea class="form-control" id="mensagem" rows="4" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary btn-block">Enviar Mensagem</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Rodapé -->
+  <footer class="bg-dark text-light text-center py-3">
+    <p>&copy; 2023 Agência de Viagens. Todos os direitos reservados.</p>
+  </footer>
+
+  <!-- Inclua o jQuery e o Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="bootstrap.js"></script>
+</body>
+</html>
